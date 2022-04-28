@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <title>404 | Page Not Found</title>
+
+    <style>
+      html, body {
+        height: 100%;
+        font-family: 'Roboto Mono', monospace;
+      }
+      .container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+      img, .text{
+        max-width: 40%;
+      }
+      button{
+        text-transform: uppercase;
+        padding: 1.5em;
+        background-color: #2b254e;
+        color: white;
+        border: none;
+      }
+      .page{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      @media only screen and (max-width: 650px) {
+        .page{
+          flex-direction: column;
+        }
+        img,.text{
+          max-width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="page">
+      <img src="Scarecrow.png" alt="orange scarecrow with clothes"/>
+      <div class="text">
+        <h1>I have bad news for you</h1>
+        <p>The page you are looking for might be removed or is temporarily unavailable.</p>
+        <button>back to homepage</button>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
