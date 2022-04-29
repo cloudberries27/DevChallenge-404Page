@@ -26,6 +26,18 @@
       html, body {
         height: 100%;
         font-family: 'Roboto Mono', monospace;
+        margin: 0;
+      }
+      header{
+        margin: 20px;
+        top:0;
+        position: absolute;
+      }
+      footer{
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
       }
       .container {
         align-items: center;
@@ -61,15 +73,17 @@
     </style>
   </head>
   <body>
+    <header>404 NOT FOUND</header>
     <div class="container">
-    <div class="page">
-      <img src="Scarecrow.png" alt="orange scarecrow with clothes"/>
-      <div class="text">
-        <h1>I have bad news for you</h1>
-        <p>The page you are looking for might be removed or is temporarily unavailable.</p>
-        <button>back to homepage</button>
+      <div class="page">
+        <img src="Scarecrow.png" alt="orange scarecrow with clothes"/>
+        <div class="text">
+          <h1>I have bad news for you</h1>
+          <p>The page you are looking for might be removed or is temporarily unavailable.</p>
+          <button>back to homepage</button>
+        </div>
       </div>
     </div>
-    </div>
+    <footer>created by <a href="https://devchallenges.io/portfolio/cloudberries27" target="_blank" rel="noreferrer">@cloudberries27</a> - devchallenges.io </footer>
   </body>
 </html>
